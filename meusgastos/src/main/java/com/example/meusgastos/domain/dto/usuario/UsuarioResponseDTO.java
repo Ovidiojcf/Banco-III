@@ -1,6 +1,7 @@
 package com.example.meusgastos.domain.dto.usuario;
 
-import javax.xml.crypto.Data;
+import java.util.Date;
+
 
 public class UsuarioResponseDTO {
     private Long id;
@@ -8,8 +9,8 @@ public class UsuarioResponseDTO {
     private String email;
     private String senha;
     private String foto;
-    private Data dataCadastro;
-    private Data dataInativacao;
+    private Date dataCadastro;
+    private Date dataInativacao;
 
     
     public Long getId() {
@@ -42,16 +43,16 @@ public class UsuarioResponseDTO {
     public void setFoto(String foto) {
         this.foto = foto;
     }
-    public Data getDataCadastro() {
+    public Date getDataCadastro() {
         return dataCadastro;
     }
-    public void setDataCadastro(Data dataCadastro) {
+    public void setDataCadastro(Date dataCadastro) {
         this.dataCadastro = dataCadastro;
     }
-    public Data getDataInativacao() {
+    public Date getDataInativacao() {
         return dataInativacao;
     }
-    public void setDataInativacao(Data dataInativacao) {
+    public void setDataInativacao(Date dataInativacao) {
         this.dataInativacao = dataInativacao;
     }
 

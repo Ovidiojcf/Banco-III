@@ -81,6 +81,7 @@ public class Usuario implements UserDetails {
     public void setTitulos(List<Titulo> titulos) {
         this.titulos = titulos;
     }
+    
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
@@ -109,4 +110,5 @@ public class Usuario implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+    
 }

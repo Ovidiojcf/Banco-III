@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.meusgastos.domain.dto.usuario.UsuarioRequestDTO;
 import com.example.meusgastos.domain.dto.usuario.UsuarioResponseDTO;
-import com.example.meusgastos.domain.model.Usuario;
 import com.example.meusgastos.domain.service.UsuarioService;
 
 @CrossOrigin("*")

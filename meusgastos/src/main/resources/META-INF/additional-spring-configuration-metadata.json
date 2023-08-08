@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "auth.jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.jwt.secret'"
+  },
+  {
+    "name": "auth.jwt-experation-milliseg",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.jwt-experation-milliseg'"
+  }
+]}
